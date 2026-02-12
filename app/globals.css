@@ -1,7 +1,5 @@
 @import "tailwindcss";
 
-@custom-variant dark (&:is(.dark *));
-
 :root {
   --black: #07151b;
   --radius: 0.625rem;
@@ -37,13 +35,4 @@
 body {
   background: #07151b;
   font-family: var(--font-montserrat), sans-serif;
-}
-
-@layer base {
-  * {
-    @apply border-border outline-ring/50;
-  }
-  body {
-    @apply bg-background text-foreground;
-  }
 }

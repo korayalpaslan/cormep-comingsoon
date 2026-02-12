@@ -1,7 +1,5 @@
-import { Inter, Zalando_Sans_Expanded } from "next/font/google";
+import { Zalando_Sans_Expanded } from "next/font/google";
 import "./globals.css";
-import Footer from "@/components/shared/Footer";
-import Navbar from "@/components/shared/Navbar";
 
 const montserrat = Zalando_Sans_Expanded({
   variable: "--font-montserrat",
@@ -16,6 +14,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="apple-touch-icon" href="/images/icon.svg"></link>
+        <link rel="shortcut icon" href="/images/icon.svg"></link>
+      </head>
       <body className={`${montserrat.variable} antialiased`}>{children}</body>
     </html>
   );
