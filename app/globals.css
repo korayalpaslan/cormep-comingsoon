@@ -30,6 +30,16 @@
   .wrapper {
     @apply max-w-7xl mx-auto px-6 xl:px-0 w-full;
   }
+
+  .color {
+    height: 1000px;
+    width: 1000px;
+    background-image: radial-gradient(
+      closest-side,
+      rgba(217, 70, 239, 0.2),
+      #07151b
+    );
+  }
 }
 
 body {
