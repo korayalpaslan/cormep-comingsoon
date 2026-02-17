@@ -30,7 +30,7 @@ export default function Home() {
           Çok Yakında
         </h1>
         <p className="mb-6 text-center lg:text-lg mb-2">
-          Kısa bir süre içinde yeni web sayfamız yayında olacaktır
+          Kısa bir süre içinde yeni web sayfamız yayında olacak
         </p>
         <div className="mb-6 text-center space-y-2 text-sm">
           <p>info@cormep.com</p>
